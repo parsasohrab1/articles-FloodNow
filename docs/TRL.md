@@ -23,4 +23,4 @@ Flood-day alert (hit rate / false-alarm rate): alarm when the point forecast, or
 - Coverage on true flood days stays low (0.25–0.31): flood days sit at the edge of the high regime and the intervals are not conditionally valid there. A guarantee averaged over a regime is not a guarantee on the rare extreme days.
 - Using the upper bound as an alert roughly doubles the flood-day hit rate against the point forecast (0.38–0.44 against 0.18–0.22) with false-alarm rates around 1 %, but still misses more than half of the flood days.
 - Daily means cannot resolve flash floods on small urban catchments; a 1-day-ahead daily forecast is not a warning system.
-- Non-stationarity (urbanisation, 2017 Harvey) is present in the test period; the same-quantile flood definition from the training years flags a larger share of test days than 1 %.
+- Only 293 of the 28 790 test gauge-days (1.0 %) are flood days, so per-gauge flood statistics rest on a handful of events (including Hurricane Harvey, 2017); the averages above are over gauges and are noisy.
