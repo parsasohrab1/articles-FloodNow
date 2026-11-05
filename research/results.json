@@ -1,0 +1,465 @@
+{
+ "note": "real USGS daily discharge; chronological split; 10 gauges; alpha=0.1",
+ "sites": {
+  "01585200": {
+   "n_test": 2921,
+   "n_flood_days_test": 31,
+   "n_high_regime_test": 315,
+   "mae_log": {
+    "persistence": 0.4419120900685523,
+    "ridge": 0.41710707700260985,
+    "boosting": 0.44729336948929527
+   },
+   "ridge": {
+    "coverage_marginal": 0.8990071893187265,
+    "coverage_regime": 0.9020883259157823,
+    "coverage_high_regime_marginal": 0.8444444444444444,
+    "coverage_high_regime_regime": 0.9142857142857143,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 1.8703667141794282,
+    "width_log_regime_high": 2.70952822456088,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.0,
+    "false_alarm_rate_upper_marginal": 0.0,
+    "flood_hit_upper_regime": 0.0,
+    "false_alarm_rate_upper_regime": 0.002422145328719723
+   },
+   "boosting": {
+    "coverage_marginal": 0.9075659020883259,
+    "coverage_regime": 0.9089352961314618,
+    "coverage_high_regime_marginal": 0.8444444444444444,
+    "coverage_high_regime_regime": 0.9111111111111111,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 2.1207766026065977,
+    "width_log_regime_high": 2.8040906714186855,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.0,
+    "false_alarm_rate_upper_marginal": 0.0,
+    "flood_hit_upper_regime": 0.0,
+    "false_alarm_rate_upper_regime": 0.0031141868512110727
+   }
+  },
+  "01589440": {
+   "n_test": 2921,
+   "n_flood_days_test": 43,
+   "n_high_regime_test": 414,
+   "mae_log": {
+    "persistence": 0.26569843022531464,
+    "ridge": 0.26386014499569166,
+    "boosting": 0.27951830404393013
+   },
+   "ridge": {
+    "coverage_marginal": 0.875042793563848,
+    "coverage_regime": 0.8808627182471757,
+    "coverage_high_regime_marginal": 0.6980676328502415,
+    "coverage_high_regime_regime": 0.8599033816425121,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.023255813953488372,
+    "width_log_marginal": 0.9051406522841852,
+    "width_log_regime_high": 1.5501012043885085,
+    "flood_hit_point": 0.023255813953488372,
+    "false_alarm_rate_point": 0.0006949270326615705,
+    "flood_hit_upper_marginal": 0.046511627906976744,
+    "false_alarm_rate_upper_marginal": 0.003822098679638638,
+    "flood_hit_upper_regime": 0.20930232558139536,
+    "false_alarm_rate_upper_regime": 0.010423905489923557
+   },
+   "boosting": {
+    "coverage_marginal": 0.8825744608010955,
+    "coverage_regime": 0.890790825059911,
+    "coverage_high_regime_marginal": 0.7729468599033816,
+    "coverage_high_regime_regime": 0.8816425120772947,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 1.125291781433729,
+    "width_log_regime_high": 1.92543793152465,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.0,
+    "false_alarm_rate_upper_marginal": 0.0,
+    "flood_hit_upper_regime": 0.09302325581395349,
+    "false_alarm_rate_upper_regime": 0.004517025712300208
+   }
+  },
+  "01646500": {
+   "n_test": 2921,
+   "n_flood_days_test": 21,
+   "n_high_regime_test": 275,
+   "mae_log": {
+    "persistence": 0.1406022566085151,
+    "ridge": 0.11970168777499608,
+    "boosting": 0.1249115105129236
+   },
+   "ridge": {
+    "coverage_marginal": 0.890106128038343,
+    "coverage_regime": 0.8990071893187265,
+    "coverage_high_regime_marginal": 0.7927272727272727,
+    "coverage_high_regime_regime": 0.9163636363636364,
+    "coverage_flood_days_marginal": 0.47619047619047616,
+    "coverage_flood_days_regime": 0.7619047619047619,
+    "width_log_marginal": 0.5115447480538684,
+    "width_log_regime_high": 0.7187497283454967,
+    "flood_hit_point": 0.6190476190476191,
+    "false_alarm_rate_point": 0.002413793103448276,
+    "flood_hit_upper_marginal": 0.8571428571428571,
+    "false_alarm_rate_upper_marginal": 0.008275862068965517,
+    "flood_hit_upper_regime": 0.9523809523809523,
+    "false_alarm_rate_upper_regime": 0.012413793103448275
+   },
+   "boosting": {
+    "coverage_marginal": 0.8921602191030469,
+    "coverage_regime": 0.8979801437863745,
+    "coverage_high_regime_marginal": 0.84,
+    "coverage_high_regime_regime": 0.8981818181818182,
+    "coverage_flood_days_marginal": 0.6190476190476191,
+    "coverage_flood_days_regime": 0.6666666666666666,
+    "width_log_marginal": 0.5657985669684642,
+    "width_log_regime_high": 0.7216293151893183,
+    "flood_hit_point": 0.42857142857142855,
+    "false_alarm_rate_point": 0.0020689655172413794,
+    "flood_hit_upper_marginal": 0.9047619047619048,
+    "false_alarm_rate_upper_marginal": 0.007241379310344828,
+    "flood_hit_upper_regime": 0.9523809523809523,
+    "false_alarm_rate_upper_regime": 0.010689655172413793
+   }
+  },
+  "01651000": {
+   "n_test": 2507,
+   "n_flood_days_test": 36,
+   "n_high_regime_test": 287,
+   "mae_log": {
+    "persistence": 0.46798284282618374,
+    "ridge": 0.45519211308515484,
+    "boosting": 0.47496633197244853
+   },
+   "ridge": {
+    "coverage_marginal": 0.8759473474272038,
+    "coverage_regime": 0.8851216593538094,
+    "coverage_high_regime_marginal": 0.7282229965156795,
+    "coverage_high_regime_regime": 0.8153310104529616,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 1.7617782114845584,
+    "width_log_regime_high": 1.9802828422962246,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.05555555555555555,
+    "false_alarm_rate_upper_marginal": 0.0056657223796034,
+    "flood_hit_upper_regime": 0.08333333333333333,
+    "false_alarm_rate_upper_regime": 0.009307972480777013
+   },
+   "boosting": {
+    "coverage_marginal": 0.8907060231352214,
+    "coverage_regime": 0.8923015556441962,
+    "coverage_high_regime_marginal": 0.8048780487804879,
+    "coverage_high_regime_regime": 0.8571428571428571,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 2.013516715875844,
+    "width_log_regime_high": 2.3430970481848306,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.0,
+    "false_alarm_rate_upper_marginal": 0.003642250101173614,
+    "flood_hit_upper_regime": 0.05555555555555555,
+    "false_alarm_rate_upper_regime": 0.00971266693646297
+   }
+  },
+  "02336300": {
+   "n_test": 2921,
+   "n_flood_days_test": 29,
+   "n_high_regime_test": 285,
+   "mae_log": {
+    "persistence": 0.501620112880603,
+    "ridge": 0.49200235583367913,
+    "boosting": 0.5198161430120634
+   },
+   "ridge": {
+    "coverage_marginal": 0.8945566586785347,
+    "coverage_regime": 0.8931872646353989,
+    "coverage_high_regime_marginal": 0.8175438596491228,
+    "coverage_high_regime_regime": 0.8807017543859649,
+    "coverage_flood_days_marginal": 0.034482758620689655,
+    "coverage_flood_days_regime": 0.034482758620689655,
+    "width_log_marginal": 2.1371684934375264,
+    "width_log_regime_high": 2.50415425870265,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.034482758620689655,
+    "false_alarm_rate_upper_marginal": 0.006224066390041493,
+    "flood_hit_upper_regime": 0.034482758620689655,
+    "false_alarm_rate_upper_regime": 0.00933609958506224
+   },
+   "boosting": {
+    "coverage_marginal": 0.9031153714481343,
+    "coverage_regime": 0.9058541595344061,
+    "coverage_high_regime_marginal": 0.8140350877192982,
+    "coverage_high_regime_regime": 0.8947368421052632,
+    "coverage_flood_days_marginal": 0.034482758620689655,
+    "coverage_flood_days_regime": 0.06896551724137931,
+    "width_log_marginal": 2.3573448614825114,
+    "width_log_regime_high": 3.0450635169235003,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.034482758620689655,
+    "false_alarm_rate_upper_marginal": 0.004840940525587829,
+    "flood_hit_upper_regime": 0.10344827586206896,
+    "false_alarm_rate_upper_regime": 0.01313969571230982
+   }
+  },
+  "03339000": {
+   "n_test": 2921,
+   "n_flood_days_test": 22,
+   "n_high_regime_test": 271,
+   "mae_log": {
+    "persistence": 0.2289960687747593,
+    "ridge": 0.199901677604255,
+    "boosting": 0.2146077674687059
+   },
+   "ridge": {
+    "coverage_marginal": 0.8760698390962,
+    "coverage_regime": 0.8770968846285518,
+    "coverage_high_regime_marginal": 0.8265682656826568,
+    "coverage_high_regime_regime": 0.8819188191881919,
+    "coverage_flood_days_marginal": 0.5454545454545454,
+    "coverage_flood_days_regime": 0.5909090909090909,
+    "width_log_marginal": 0.7783430641116613,
+    "width_log_regime_high": 0.900919881504306,
+    "flood_hit_point": 0.5,
+    "false_alarm_rate_point": 0.002414625733011383,
+    "flood_hit_upper_marginal": 0.7272727272727273,
+    "false_alarm_rate_upper_marginal": 0.013797861331493619,
+    "flood_hit_upper_regime": 0.7272727272727273,
+    "false_alarm_rate_upper_regime": 0.018282166264229044
+   },
+   "boosting": {
+    "coverage_marginal": 0.8788086271824718,
+    "coverage_regime": 0.8801780212256076,
+    "coverage_high_regime_marginal": 0.8856088560885609,
+    "coverage_high_regime_regime": 0.940959409594096,
+    "coverage_flood_days_marginal": 0.5,
+    "coverage_flood_days_regime": 0.6818181818181818,
+    "width_log_marginal": 0.8834805331370408,
+    "width_log_regime_high": 1.1430334641195898,
+    "flood_hit_point": 0.4090909090909091,
+    "false_alarm_rate_point": 0.0017247326664367024,
+    "flood_hit_upper_marginal": 0.7727272727272727,
+    "false_alarm_rate_upper_marginal": 0.015522593997930321,
+    "flood_hit_upper_regime": 0.8181818181818182,
+    "false_alarm_rate_upper_regime": 0.020351845463953088
+   }
+  },
+  "05531500": {
+   "n_test": 2921,
+   "n_flood_days_test": 55,
+   "n_high_regime_test": 414,
+   "mae_log": {
+    "persistence": 0.268975862757595,
+    "ridge": 0.2425625219748847,
+    "boosting": 0.26351706394144
+   },
+   "ridge": {
+    "coverage_marginal": 0.8541595344060253,
+    "coverage_regime": 0.8627182471756247,
+    "coverage_high_regime_marginal": 0.8405797101449275,
+    "coverage_high_regime_regime": 0.8864734299516909,
+    "coverage_flood_days_marginal": 0.6,
+    "coverage_flood_days_regime": 0.6363636363636364,
+    "width_log_marginal": 0.8584159368411868,
+    "width_log_regime_high": 0.9648599572363814,
+    "flood_hit_point": 0.45454545454545453,
+    "false_alarm_rate_point": 0.0034891835310537334,
+    "flood_hit_upper_marginal": 0.7090909090909091,
+    "false_alarm_rate_upper_marginal": 0.03210048848569435,
+    "flood_hit_upper_regime": 0.7272727272727273,
+    "false_alarm_rate_upper_regime": 0.03977669225401256
+   },
+   "boosting": {
+    "coverage_marginal": 0.8545018829168093,
+    "coverage_regime": 0.859637110578569,
+    "coverage_high_regime_marginal": 0.8816425120772947,
+    "coverage_high_regime_regime": 0.8816425120772947,
+    "coverage_flood_days_marginal": 0.6,
+    "coverage_flood_days_regime": 0.6,
+    "width_log_marginal": 0.9711457470325957,
+    "width_log_regime_high": 0.9768514011769227,
+    "flood_hit_point": 0.43636363636363634,
+    "false_alarm_rate_point": 0.0027913468248429866,
+    "flood_hit_upper_marginal": 0.7272727272727273,
+    "false_alarm_rate_upper_marginal": 0.04012561060711793,
+    "flood_hit_upper_regime": 0.7272727272727273,
+    "false_alarm_rate_upper_regime": 0.041172365666434056
+   }
+  },
+  "08074500": {
+   "n_test": 2921,
+   "n_flood_days_test": 19,
+   "n_high_regime_test": 243,
+   "mae_log": {
+    "persistence": 0.44322170467081673,
+    "ridge": 0.44926350523702313,
+    "boosting": 0.4890098029343941
+   },
+   "ridge": {
+    "coverage_marginal": 0.9202327969873331,
+    "coverage_regime": 0.9209174940089011,
+    "coverage_high_regime_marginal": 0.8930041152263375,
+    "coverage_high_regime_regime": 0.9382716049382716,
+    "coverage_flood_days_marginal": 0.10526315789473684,
+    "coverage_flood_days_regime": 0.15789473684210525,
+    "width_log_marginal": 2.316021397094108,
+    "width_log_regime_high": 2.9840633098304643,
+    "flood_hit_point": 0.10526315789473684,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.3157894736842105,
+    "false_alarm_rate_upper_marginal": 0.004824259131633356,
+    "flood_hit_upper_regime": 0.3684210526315789,
+    "false_alarm_rate_upper_regime": 0.013783597518952447
+   },
+   "boosting": {
+    "coverage_marginal": 0.9171516603902773,
+    "coverage_regime": 0.9260527216706608,
+    "coverage_high_regime_marginal": 0.8436213991769548,
+    "coverage_high_regime_regime": 0.934156378600823,
+    "coverage_flood_days_marginal": 0.05263157894736842,
+    "coverage_flood_days_regime": 0.10526315789473684,
+    "width_log_marginal": 2.484942742267153,
+    "width_log_regime_high": 3.410911144232383,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.00034458993797381116,
+    "flood_hit_upper_marginal": 0.21052631578947367,
+    "false_alarm_rate_upper_marginal": 0.010337698139214336,
+    "flood_hit_upper_regime": 0.42105263157894735,
+    "false_alarm_rate_upper_regime": 0.02653342522398346
+   }
+  },
+  "08075000": {
+   "n_test": 2921,
+   "n_flood_days_test": 21,
+   "n_high_regime_test": 271,
+   "mae_log": {
+    "persistence": 0.3546998801476455,
+    "ridge": 0.36983567469275447,
+    "boosting": 0.3961348928982853
+   },
+   "ridge": {
+    "coverage_marginal": 0.8996918863402944,
+    "coverage_regime": 0.9072235535775419,
+    "coverage_high_regime_marginal": 0.7453874538745388,
+    "coverage_high_regime_regime": 0.9188191881918819,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 1.6558959638437099,
+    "width_log_regime_high": 2.566864482424757,
+    "flood_hit_point": 0.047619047619047616,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.14285714285714285,
+    "false_alarm_rate_upper_marginal": 0.0020689655172413794,
+    "flood_hit_upper_regime": 0.23809523809523808,
+    "false_alarm_rate_upper_regime": 0.009310344827586206
+   },
+   "boosting": {
+    "coverage_marginal": 0.9044847654912701,
+    "coverage_regime": 0.9154399178363574,
+    "coverage_high_regime_marginal": 0.7749077490774908,
+    "coverage_high_regime_regime": 0.9040590405904059,
+    "coverage_flood_days_marginal": 0.0,
+    "coverage_flood_days_regime": 0.0,
+    "width_log_marginal": 1.8607066764057691,
+    "width_log_regime_high": 2.8910429014669,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.09523809523809523,
+    "false_alarm_rate_upper_marginal": 0.003793103448275862,
+    "flood_hit_upper_regime": 0.23809523809523808,
+    "false_alarm_rate_upper_regime": 0.017586206896551725
+   }
+  },
+  "08158000": {
+   "n_test": 2915,
+   "n_flood_days_test": 16,
+   "n_high_regime_test": 113,
+   "mae_log": {
+    "persistence": 0.2239084983429976,
+    "ridge": 0.23695276183833344,
+    "boosting": 0.2896100371952209
+   },
+   "ridge": {
+    "coverage_marginal": 0.8634648370497428,
+    "coverage_regime": 0.8638078902229845,
+    "coverage_high_regime_marginal": 0.7964601769911505,
+    "coverage_high_regime_regime": 0.9026548672566371,
+    "coverage_flood_days_marginal": 0.6875,
+    "coverage_flood_days_regime": 0.875,
+    "width_log_marginal": 0.906689567306902,
+    "width_log_regime_high": 1.4590123106054858,
+    "flood_hit_point": 0.0,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.875,
+    "false_alarm_rate_upper_marginal": 0.002414625733011383,
+    "flood_hit_upper_regime": 0.9375,
+    "false_alarm_rate_upper_regime": 0.004139358399448086
+   },
+   "boosting": {
+    "coverage_marginal": 0.8583190394511149,
+    "coverage_regime": 0.8614065180102916,
+    "coverage_high_regime_marginal": 0.8849557522123894,
+    "coverage_high_regime_regime": 0.911504424778761,
+    "coverage_flood_days_marginal": 0.9375,
+    "coverage_flood_days_regime": 0.9375,
+    "width_log_marginal": 1.105856614148701,
+    "width_log_regime_high": 1.3790683184973727,
+    "flood_hit_point": 0.9375,
+    "false_alarm_rate_point": 0.0,
+    "flood_hit_upper_marginal": 0.9375,
+    "false_alarm_rate_upper_marginal": 0.003104518799586064,
+    "flood_hit_upper_regime": 0.9375,
+    "false_alarm_rate_upper_regime": 0.0034494653328734047
+   }
+  }
+ },
+ "mean_over_sites": {
+  "ridge": {
+   "coverage_marginal": 0.8848279010906251,
+   "coverage_regime": 0.8892031227084496,
+   "coverage_high_regime_marginal": 0.7983005928106371,
+   "coverage_high_regime_regime": 0.8914723406657462,
+   "coverage_flood_days_marginal": 0.2448890938160448,
+   "coverage_flood_days_regime": 0.3079810798593773,
+   "width_log_marginal": 1.3701364748637135,
+   "width_log_regime_high": 1.8338536199895152,
+   "flood_hit_point": 0.17497310930603466,
+   "false_alarm_rate_point": 0.0009012529400174963,
+   "flood_hit_upper_marginal": 0.3763703052131069,
+   "false_alarm_rate_upper_marginal": 0.007919394971732312,
+   "flood_hit_upper_regime": 0.42780611151886416,
+   "false_alarm_rate_upper_regime": 0.012919607525215917
+  },
+  "boosting": {
+   "coverage_marginal": 0.8889387952007766,
+   "coverage_regime": 0.8938576269477835,
+   "coverage_high_regime_marginal": 0.8347040709480302,
+   "coverage_high_regime_regime": 0.9015136906259725,
+   "coverage_flood_days_marginal": 0.2743661956615677,
+   "coverage_flood_days_regime": 0.30602135236209643,
+   "width_log_marginal": 1.5488860841358405,
+   "width_log_regime_high": 2.064022571273415,
+   "flood_hit_point": 0.2211525974025974,
+   "false_alarm_rate_point": 0.0006929634946494879,
+   "flood_hit_upper_marginal": 0.36825090744101635,
+   "false_alarm_rate_upper_marginal": 0.008860809492923078,
+   "flood_hit_upper_regime": 0.4346510454741261,
+   "false_alarm_rate_upper_regime": 0.01502665389684936
+  },
+  "mae_log": {
+   "persistence": 0.33376177473029833,
+   "ridge": 0.32463795200393825,
+   "boosting": 0.3499385223468707
+  }
+ },
+ "n_sites": 10
+}
